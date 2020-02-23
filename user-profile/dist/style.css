@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+ background-color: #DA627D;
+ background-image: url('https://i.imgur.com/DasAaHR.png');
+ background-size: cover;
+
+} 
+
+.center {
+    display: flex;
+  flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+} 
+
+h1, h2, p {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 17px;
+  color: #black;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: auto;
+  font-size: 6.5px;
+  width: 160px;
+  margin-top: -9px;
+  padding: .02px;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: none;
+  background-color: #C59FC9;
+}
+
+p {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 7px;
+}
+
+.social {
+  
+  text-align: center;
+  word-spacing: 20px;
+  padding-top: 6px;
+  width: 100%;
+}
+
+.social .fab {
+  display:inline-block;
+}
+
+
+.me {
+  width: 200px;
+  padding-left: 35px;
+}
+
+.top {
+  display: flex;
+   width: 300px; 
+ height: 190px;
+ background-image: url('https://i.imgur.com/XVPIPUv.png');
+ background-color: #531d69;
+  box-shadow: 0 30px 60px -20px rgba(14, 0, 47, 0.21);
+}
+
+.bottom {
+ position: relative;
+ width: 300px;
+ height: 180px;
+ padding-top: 10px;
+ background-color: white;
+  box-shadow: 0 30px 60px -20px rgba(14, 0, 47, 0.21);
+}

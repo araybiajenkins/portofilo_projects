@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1, h2 {
+  font-family: 'Permanent Marker', cursive;
+  
+}
+
+h1 {
+  font-size: 32px;
+  color: #00b0bd;
+}
+
+h2 {
+  font-size: 35px;
+  color: #de6098;
+}
+
+b {
+  color: #00b0bd;
+}
+
+img {
+  max-width: none;
+}
+
+.banner {
+   width: 100%;
+   height: 100vh;
+   min-height: 500px;
+   background: url('https://i.imgur.com/H1QdYKD.jpg');
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+}
+
+.row {
+  display:flex;
+  width:100%;
+  margin: 0;
+}
+
+.materia {
+ text-align: justify;
+  margin-top: 20px;
+  width: 250px;
+  font-size: 15px;
+}
+
+.card {
+  max-width: 450px;
+}
+
+.card-img-top {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+}
+
+#base{
+  height: auto;
+  max-width: 1020px;
+  background-color: white
+}
+
+#preorder {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+}
+
+#preorder img {
+  width: 100%;
+  height: auto;
+}
+
+#preorder .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #CA68B1;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#preorder .btn:hover {
+  background-color: #A65985;
+}
+
+@media screen and (max-width: 992px) {
+  .btn-responsive {
+    padding: 5px 8px;
+    font-size:80%;
+    line-height: 1;
+    border-radius:3px;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .btn-responsive {
+    padding: 10px 20px;
+    font-size:80%;
+    line-height: 1;
+    border-radius:3px;
+  }
+}
+
+#buffer {
+  margin-top: 20px;
+}
+
+footer {
+  height: 100px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #7FD7E8;
+}
+
+#toppers {
+    width: 100%;
+    background:#AEDCCF;
+    color: white;
+    font-size: 13px;
+    height: 70px;
+}
+
+#social {
+  word-spacing: 20px;
+  font-size: 18px;
+  position: static;
+}
+
+#bottoms {
+  background-color: #81BDAB;
+  color: white;
+  font-size: 11px;
+  height: 30px;
+}
