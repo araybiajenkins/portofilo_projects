@@ -1,0 +1,57 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+header {
+  background-color: #F5AB83;
+  padding: 10px;
+  height: 25px;
+}
+
+h3 {
+  font-family: arial;
+  float: left;
+}
+
+#btn-group {
+ width: 200px;
+ margin: 0 auto;
+}
+
+.togglebtn {
+  border: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  padding: 4px;
+  float: left;
+  
+}
+
+.active {
+  background-color: #E8F2FF;
+}
+
+.highlighted {
+  background-color: grey;
+}
+
+.panel {
+  float: left;
+  width: 50%;
+  border-left: none;
+}
+
+textarea {
+  resize: none;
+  border-top: none;
+  border-color: grey;
+}
+
+iframe {
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
