@@ -1,0 +1,46 @@
+
+
+body {
+    background-size: cover;
+    background-image: url(https://i.imgur.com/JoFQiuX.png);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    font-family: 'Noto Sans', arial;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: lowercase;
+    text-shadow: 2px 2px 3px #000000;
+  }
+  
+  .container {
+    margin: auto;
+    max-width: 535px;
+    height: 250px;
+    font-family: 'Noto Sans', arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .chillwave {
+    margin: 0 auto;
+    display: block;
+    background-color: #D0166A;
+    color: white;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .chillwave:hover { 
+    background-color: #16D0D0;
+  }
+  
